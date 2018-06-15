@@ -1,0 +1,80 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ /* Header */
+
+ header {
+     background-color: #C6B9D0;
+     height: 160px;
+     text-align: center;
+ }
+ header h1 {
+     color: whitesmoke;
+     font-size: 60px;
+     font-weight: 300;
+     padding-top: 30px;
+ }
+
+ /* Main Content */
+
+ .main {
+     background-image: url("http://www.fullhdwpp.com/wp-content/uploads/Abstract-Multicolor-Tiles-19_www.FullHDWpp.com_.jpg");
+     background-repeat: no-repeat;
+     text-align: center;
+ }
+ .box {
+     display: inline-flex;
+     position: relative;
+     text-align: center;
+     width: 33%;
+ }
+ .box img {
+     display: block;
+     height: 350px;
+     margin: 35px 15px;
+     width: 95%;
+ }
+ .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 350px;
+    margin: 35px 15px;
+    width: 95%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: whitesmoke;
+  }
+  .box:hover .overlay {
+    opacity: 1;
+  }
+  .text {
+    color: steelblue;
+    font-size: 36px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+ 
+ /* Footer */
+
+ footer {
+     background-color: #3F6DA1;
+     height: 120px;
+     text-align: center;
+ }
+ footer h6 {
+     color: whitesmoke;
+     font-size: 18px;
+     font-weight: 400;
+     margin: 0;
+     padding-top: 40px;
+ }
